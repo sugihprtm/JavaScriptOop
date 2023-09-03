@@ -8,9 +8,17 @@
 <body>
 <script>
     function Person(){
-        const eko = new Person();
-        const budi = new PErson();
+        this.firstName = "";
+        this.lastName = "";
     }
+    const eko = new Person();
+    eko.firstName = "Eko";
+    eko.lastName = "Sulistio";
+    const budi = new Person();
+    budi.firstName = "Budi";
+    budi.lastName = "Nugraha";
+    console.log(eko);
+    console.log(budi);
 </script>
 </body>
 </html>
